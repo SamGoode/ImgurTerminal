@@ -94,7 +94,7 @@ int main() {
     int* pixelData = new int[imgHeight * imgWidth];
     jpg.decode(data, pixelData);
 
-    int scaling = 1;
+    int scaling = 2;
 
     setupConsole();
 
